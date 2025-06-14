@@ -6,6 +6,7 @@ This repo has been made since sometime you only require the nix evaluator, and g
 
 
 This flake provides:
+```
 └───packages
     ├───aarch64-linux
     │   ├───default: package 'all-nix-tars'
@@ -19,5 +20,6 @@ This flake provides:
         ├───nix_2_27_1: package 'copy-nix-bin'
         ├───nix_2_28_3: package 'copy-nix-bin'
         └───nix_2_29_0: package 'copy-nix-bin'
+```
 
 Where "default" is to get all nix statically-compiled in a .tar.gz file, the others just gets you the binary. 
